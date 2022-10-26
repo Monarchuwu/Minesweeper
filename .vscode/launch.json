@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Launch",
+      "program": "${fileDirname}/${fileBasenameNoExtension}.exe",
+      "args": [],
+      "cwd": "${fileDirname}",
+      "preLaunchTask": "C/C++: clang++.exe build active file",
+      "terminal": "external"
+    }
+  ]
+}
